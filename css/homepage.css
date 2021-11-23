@@ -1,0 +1,36 @@
+.main_homepage {
+  background-image: url('/images/trädtoppar.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 94vh;
+}
+
+.main_homepage {
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 120px;
+  min-height: 700px;
+}
+
+.homepage_h1 {
+  padding-bottom: 50px;
+}
+
+button {
+  text-decoration: none;
+  border: 0;
+  width: 70%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+button a {
+  text-decoration: none;
+}

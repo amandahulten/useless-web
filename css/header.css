@@ -1,0 +1,14 @@
+
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+}
+
+hr {
+  border: 2px solid black;
+}
+
+
