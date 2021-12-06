@@ -1,36 +1,139 @@
-.main_homepage {
+body {
   background-image: url('/images/trädtoppar.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 94vh;
-}
-
-.main_homepage {
   color: white;
+  margin-bottom: 30px;
 }
 
-.content {
+h2 {
+  font-family: 'source regular';
+}
+
+
+h1, h3 {
+  font-family: 'source light';
+}
+
+header {
+  background-color: #cccaca;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.content_container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 120px;
-  min-height: 700px;
 }
 
-.homepage_h1 {
-  padding-bottom: 50px;
+.intro_h2 {
+  padding-bottom: 16px;
 }
 
+.homepage_text {
+  margin: 16px 16px 100px 16px;
+  background-color: var(--main_color);
+  border-radius: 5px;
+  padding: 16px;
+  color: var(--grey);
+  text-align: center;
+}
 button {
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   border: 0;
   width: 70%;
   height: 50px;
   border-radius: 5px;
+  background-color: var(--main_color);
+  font-family: 'source regular';
+  margin-bottom: 10px;
+  transition: 0.3s;
+  max-width: 450px;
 }
 
 button a {
   text-decoration: none;
+  color: white;
 }
+
+svg {
+  width: 15px;
+}
+
+.active {
+  background-color: var(--grey);
+  color: white;
+}
+
+.content {
+  display: none;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.div_styling {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: var(--main_color);
+  border-radius: 10px;
+  color: var(--grey);
+  margin-bottom: 16px;
+  padding-top: 16px;
+}
+
+.div_styling:first-child {
+  padding-top: 20px;
+}
+
+.div_styling:last-child {
+  padding-bottom: 20px;
+}
+
+.bird_family {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+}
+
+.birds {
+  border: 3px solid black;
+}
+
+
+
+
+
+

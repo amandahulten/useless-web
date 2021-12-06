@@ -2,3 +2,32 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+
+:root {
+  /* Colors */
+  --main_color: #bc8f8f;
+  --grey: rgb(70, 68, 68);
+
+
+
+}
+@font-face {
+  font-family: 'source regular';
+  src: url(/fonts/SourceSansPro-Regular.woff2);
+  src: url(/fonts/SourceSansPro-Regular.woff);
+}
+
+
+@font-face {
+  font-family: 'source light';
+  src: url(/fonts/SourceSansPro-Light.woff2);
+  src: url(/fonts/SourceSansPro-Light.woff);
+}
+
+@font-face {
+  font-family: 'source extra-light';
+  src: url(/fonts/SourceSansPro-ExtraLight.woff2);
+  src: url(/fonts/SourceSansPro-ExtraLight.woff);
+}
+
