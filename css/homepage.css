@@ -7,17 +7,27 @@ body {
   margin-bottom: 30px;
 }
 
-h2 {
-  font-family: 'source regular';
+h1 {
+  font-size: var(--h2);
+  padding: 16px;
 }
 
+h2 {
+  font-family: 'source regular';
+  font-size: var(--h3);
+}
 
-h1, h3 {
+h3 {
+  font-size: var(--h4);
+}
+
+h1,
+h3 {
   font-family: 'source light';
 }
 
 header {
-  background-color: #cccaca;
+  background-color: white;
   color: black;
 }
 
@@ -48,7 +58,7 @@ hr {
   background-color: var(--main_color);
   border-radius: 5px;
   padding: 16px;
-  color: var(--grey);
+  color: black;
   text-align: center;
 }
 button {
@@ -87,12 +97,12 @@ svg {
   width: 80%;
   flex-direction: column;
   align-items: center;
+  transition: 0.4s ease;
 }
 
-
 img {
-  width: 70%;
-  height: 70%;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
@@ -103,37 +113,65 @@ img {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 300px;
-  height: 300px;
+  position: relative;
+  width: 200px;
+  height: 200px;
   background-color: var(--main_color);
   border-radius: 10px;
-  color: var(--grey);
+  color: black;
   margin-bottom: 16px;
   padding-top: 16px;
+  transition: transform 1s;
 }
 
-.div_styling:first-child {
-  padding-top: 20px;
+.div_styling h3:last-child {
+  padding-bottom: 16px;
+}
+
+.div_styling:hover {
+  transform: scale(1.2);
 }
 
 .div_styling:last-child {
-  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
 
-.bird_family {
+.mail {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 300px;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid white;
+  background: black;
+  transition: all 1s;
+  text-align: center;
+  font-family: 'source regular';
+}
+input[type='email'] {
+  border-radius: 2px;
+  border: none;
 }
 
-.birds {
-  border: 3px solid black;
+input[type='submit'] {
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  background-color: var(--main_color);
+}
+.mail h3 {
+  padding-bottom: 5px;
 }
 
+.show {
+  opacity: 1;
+  right: 0;
+}
 
-
-
-
-
+.hide {
+  opacity: 0;
+  right: -100%;
+}

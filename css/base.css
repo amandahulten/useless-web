@@ -3,21 +3,22 @@
   margin: 0;
 }
 
-
 :root {
   /* Colors */
-  --main_color: #bc8f8f;
+  --main_color: #814a92;
   --grey: rgb(70, 68, 68);
 
-
-
+  /* Font Size */
+  --h1: 64px;
+  --h2: 32px;
+  --h3: 24px;
+  --h3_small: 18px;
 }
 @font-face {
   font-family: 'source regular';
   src: url(/fonts/SourceSansPro-Regular.woff2);
   src: url(/fonts/SourceSansPro-Regular.woff);
 }
-
 
 @font-face {
   font-family: 'source light';
@@ -30,4 +31,3 @@
   src: url(/fonts/SourceSansPro-ExtraLight.woff2);
   src: url(/fonts/SourceSansPro-ExtraLight.woff);
 }
-
