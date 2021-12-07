@@ -136,13 +136,13 @@ img {
   z-index: 1;
   bottom: 0;
   width: 100%;
-  height: 80px;
+  height: 100px;
   border-top: 1px solid white;
   background: black;
   transition: all 1s;
   text-align: center;
   font-family: 'source regular';
-  padding-bottom: 16px;
+  padding-bottom: 36px;
 }
 input[type='email'] {
   border-radius: 2px;
