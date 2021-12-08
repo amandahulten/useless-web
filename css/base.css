@@ -31,3 +31,27 @@
   src: url(/fonts/SourceSansPro-ExtraLight.woff2);
   src: url(/fonts/SourceSansPro-ExtraLight.woff);
 }
+
+h1 {
+  font-size: var(--h2);
+  padding: 16px;
+}
+
+h2 {
+  font-family: 'source regular';
+  font-size: var(--h3);
+}
+
+h3 {
+  font-size: var(--h4);
+}
+
+h1,
+h3 {
+  font-family: 'source light';
+}
+
+header {
+  background-color: var(--grey);
+  color: white;
+}

@@ -7,30 +7,6 @@ body {
   margin-bottom: 30px;
 }
 
-h1 {
-  font-size: var(--h2);
-  padding: 16px;
-}
-
-h2 {
-  font-family: 'source regular';
-  font-size: var(--h3);
-}
-
-h3 {
-  font-size: var(--h4);
-}
-
-h1,
-h3 {
-  font-family: 'source light';
-}
-
-header {
-  background-color: white;
-  color: black;
-}
-
 .logo {
   display: flex;
   justify-content: center;
@@ -53,6 +29,19 @@ hr {
   padding-bottom: 16px;
 }
 
+.icon {
+  padding-top: 16px;
+  box-shadow: none;
+}
+
+.music_button {
+  background-color: var(--main_color);
+  border: 0;
+}
+
+.music_desktop {
+  display: none;
+}
 .homepage_text {
   margin: 16px 16px 100px 16px;
   background-color: var(--main_color);
@@ -61,7 +50,7 @@ hr {
   color: black;
   text-align: center;
 }
-button {
+.see_open {
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -125,7 +114,7 @@ img {
 }
 
 .div_styling:last-child {
-  margin-bottom: 56px;
+  margin-bottom: 96px;
 }
 
 .mail {
@@ -136,7 +125,7 @@ img {
   z-index: 1;
   bottom: 0;
   width: 100%;
-  height: 100px;
+  height: 110px;
   border-top: 1px solid white;
   background: black;
   transition: all 1s;
@@ -167,4 +156,14 @@ input[type='submit'] {
 .hide {
   opacity: 0;
   right: -100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .music_desktop {
+    display: block;
+  }
+
+  .music_mobile {
+    display: none;
+  }
 }

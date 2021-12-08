@@ -36,9 +36,21 @@ const homes = [
     kvd: 10,
   },
 ];
-const music = document.querySelector('.bird_sound');
 
-document.addEventListener('keypress', startMusic);
+const music = document.querySelector('.bird_sound');
+const icon = document.querySelector('.icon');
+
+function clickMusic() {
+  if (music.paused) {
+    music.play();
+    icon.src = '/images/pause-min.png';
+  } else {
+    music.pause();
+    icon.src = '/images/play-min.png';
+  }
+}
+
+icon.addEventListener('click', clickMusic);
 
 function startMusic(press) {
   if (press.keyCode == 13) {
@@ -47,6 +59,8 @@ function startMusic(press) {
     music.pause();
   }
 }
+
+document.addEventListener('keypress', startMusic);
 
 homes.forEach((home) => {
   const div = document.querySelector('.content');
