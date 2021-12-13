@@ -35,6 +35,24 @@ const homes = [
     price: 8000,
     kvd: 10,
   },
+  {
+    img: './images/fågelbo4.jpeg',
+    street: 'Treetop Street 74',
+    price: 6000,
+    kvd: 7,
+  },
+  {
+    img: './images/fågelholk5.jpeg',
+    street: 'Treetop Street 18',
+    price: 8200,
+    kvd: 11,
+  },
+  {
+    img: './images/fågelbo5.jpeg',
+    street: 'Treetop Street 5',
+    price: 6400,
+    kvd: 8,
+  },
 ];
 
 const music = document.querySelector('.bird_sound');
@@ -102,18 +120,31 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-function scrollEvent() {
+function scrollEventMobile() {
   const email = document.querySelector('.mail');
   const y = window.scrollY;
 
-  if (y > 300) {
+  if (y > 200) {
     email.className = 'mail show';
   } else {
     email.className = 'mail hide';
   }
 }
 
-window.addEventListener('scroll', scrollEvent);
+window.addEventListener('scroll', scrollEventMobile);
+
+function scrollEventDesktop() {
+  const email = document.querySelector('.mail');
+  const y = window.scrollY;
+
+  if (y > 20) {
+    email.className = 'mail show';
+  } else {
+    email.className = 'mail hide';
+  }
+}
+
+window.addEventListener('scroll', scrollEventDesktop);
 
 // window.onscroll = function (e) {
 //   console.log(window.scrollY); // Value of scroll Y in px

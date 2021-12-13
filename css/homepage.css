@@ -1,3 +1,5 @@
+/* Mobile */
+
 body {
   background-image: url('/images/treetop.jpg');
   background-repeat: no-repeat;
@@ -62,6 +64,7 @@ hr {
   border-radius: 5px;
   background-color: var(--main_color);
   font-family: 'source regular';
+  font-size: var(--h3_small);
   margin-bottom: 10px;
   transition: 0.3s;
   max-width: 450px;
@@ -89,6 +92,7 @@ img {
   border-radius: 5px;
 }
 
+/* Styling of the boxes I create in Javascript */
 .div_styling {
   display: flex;
   justify-content: center;
@@ -110,7 +114,7 @@ img {
 }
 
 .div_styling:hover {
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 
 .div_styling:last-child {
@@ -158,6 +162,24 @@ input[type='submit'] {
   right: -100%;
 }
 
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+  .content {
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 80px;
+  }
+  .div_styling:last-child {
+    margin-bottom: 16px;
+  }
+}
+
+/* Desktop */
+
 @media screen and (min-width: 1024px) {
   .music_desktop {
     display: block;
@@ -165,5 +187,9 @@ input[type='submit'] {
 
   .music_mobile {
     display: none;
+  }
+
+  .mail {
+    width: 50%;
   }
 }
