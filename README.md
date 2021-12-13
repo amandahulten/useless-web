@@ -1,12 +1,12 @@
-INSERT MANDATORY GIF
+<img src="https://media.giphy.com/media/mCb6AyWahvL1bPUiXX/giphy-downsized.gif">
 
-# Project Title
+# Birdnet
 
-Text about the project. This would also be a great place to link the game on Netlify.
+Have you ever wondered were birds can find and buy new homes? Probably not, but if you have - here is the solution. Welcome to my website made with the purpose to give birds a platform to find their new homes. 
 
 # Installation
 
-Add the installation instructions.
+No installation needed. Visit my website here: https://useless-web.netlify.app/
 
 # Code Review
 
