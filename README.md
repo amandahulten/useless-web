@@ -1,4 +1,4 @@
-![Steve Carell with birds on hos shoulders and arms doing thumbs up.](https://media.giphy.com/media/mCb6AyWahvL1bPUiXX/giphy.gif)
+<img src="https://media.giphy.com/media/mCb6AyWahvL1bPUiXX/giphy-downsized.gif">
 
 # Birdnet
 
