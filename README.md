@@ -2,7 +2,7 @@
 
 # Birdnet
 
-Have you ever wondered were birds can find and buy new homes? Probably not, but if you have - here is the solution. Welcome to my website made with the purpose to give birds a platform to find their new homes. 
+Have you ever wondered were birds can find and buy new homes? Probably not, but if you have - here is the solution. Welcome to my website made with the purpose to give birds a platform to find their new homes. Enjoy! 
 
 # Installation
 
@@ -20,5 +20,5 @@ No installation needed. Visit my website here: https://useless-web.netlify.app/
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. Agnes Skönvall
+2. Alice Nyberg
