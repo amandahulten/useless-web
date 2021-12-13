@@ -145,7 +145,3 @@ function scrollEventDesktop() {
 }
 
 window.addEventListener('scroll', scrollEventDesktop);
-
-// window.onscroll = function (e) {
-//   console.log(window.scrollY); // Value of scroll Y in px
-// };
