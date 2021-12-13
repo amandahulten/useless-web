@@ -64,7 +64,7 @@ hr {
   border-radius: 5px;
   background-color: var(--main_color);
   font-family: 'source regular';
-  font-size: var(--h3_small);
+  font-size: var(--h2_small);
   margin-bottom: 10px;
   transition: 0.3s;
   max-width: 450px;
@@ -92,7 +92,7 @@ img {
   border-radius: 5px;
 }
 
-/* Styling of the boxes I create in Javascript */
+/* Styling of the boxes I created in Javascript */
 .div_styling {
   display: flex;
   justify-content: center;

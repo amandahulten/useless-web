@@ -58,6 +58,7 @@ const homes = [
 const music = document.querySelector('.bird_sound');
 const icon = document.querySelector('.icon');
 
+// Keypress can't be used on mobile so I used a button instead
 function clickMusic() {
   if (music.paused) {
     music.play();
@@ -70,6 +71,8 @@ function clickMusic() {
 
 icon.addEventListener('click', clickMusic);
 
+// Here is the music function for desktop
+
 function startMusic(press) {
   if (press.keyCode == 13) {
     music.play();
@@ -80,6 +83,8 @@ function startMusic(press) {
 
 document.addEventListener('keypress', startMusic);
 
+// Loops trough array and display all images with assigned information
+
 homes.forEach((home) => {
   const div = document.querySelector('.content');
 
@@ -89,6 +94,7 @@ homes.forEach((home) => {
 
   const img = document.createElement('img');
   img.src = home.img;
+  img.alt = 'A bird nests or bird house in a forest environment';
   newDiv.appendChild(img);
 
   const title = document.createElement('h2');

@@ -9,9 +9,9 @@
   --grey: rgb(70, 68, 68);
 
   /* Font Size */
-  --h2: 32px;
-  --h3: 24px;
-  --h3_small: 18px;
+  --h1: 32px;
+  --h2: 24px;
+  --h2_small: 18px;
 }
 @font-face {
   font-family: 'source regular';
@@ -25,24 +25,18 @@
   src: url(/fonts/SourceSansPro-Light.woff);
 }
 
-@font-face {
-  font-family: 'source extra-light';
-  src: url(/fonts/SourceSansPro-ExtraLight.woff2);
-  src: url(/fonts/SourceSansPro-ExtraLight.woff);
-}
-
 h1 {
-  font-size: var(--h2);
+  font-size: var(--h1);
   padding: 16px;
 }
 
 h2 {
   font-family: 'source regular';
-  font-size: var(--h3);
+  font-size: var(--h2);
 }
 
 h3 {
-  font-size: var(--h3_mall);
+  font-size: var(--h2_mall);
 }
 
 h1,
