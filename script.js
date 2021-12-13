@@ -3,55 +3,55 @@ const homes = [
     img: './images/fågelbo1.jpeg',
     street: 'Treetop Street 11',
     price: 7500,
-    kvd: 10,
+    dm: 10,
   },
   {
     img: './images/fågelholk1.jpeg',
     street: 'Treetop Street 16',
     price: 8100,
-    kvd: 14,
+    dm: 14,
   },
   {
     img: './images/fågelbo3.jpeg',
     street: 'Treetop Street 25',
     price: 7200,
-    kvd: 9,
+    dm: 9,
   },
   {
     img: './images/fågelholk2.jpeg',
     street: 'Treetop Street 2',
     price: 9200,
-    kvd: 17,
+    dm: 17,
   },
   {
     img: './images/fågelbo2.jpeg',
     street: 'Treetop Street 6',
     price: 7000,
-    kvd: 8,
+    dm: 8,
   },
   {
     img: './images/fågelholk3.jpeg',
     street: 'Treetop Street 10',
     price: 8000,
-    kvd: 10,
+    dm: 10,
   },
   {
     img: './images/fågelbo4.jpeg',
     street: 'Treetop Street 74',
     price: 6000,
-    kvd: 7,
+    dm: 7,
   },
   {
     img: './images/fågelholk5.jpeg',
     street: 'Treetop Street 18',
     price: 8200,
-    kvd: 11,
+    dm: 11,
   },
   {
     img: './images/fågelbo5.jpeg',
     street: 'Treetop Street 5',
     price: 6400,
-    kvd: 8,
+    dm: 8,
   },
 ];
 
@@ -100,7 +100,7 @@ homes.forEach((home) => {
   newDiv.appendChild(price);
 
   const size = document.createElement('h3');
-  size.textContent = `${home.kvd} kvd`;
+  size.textContent = `${home.dm} dm²`;
   newDiv.appendChild(size);
 });
 

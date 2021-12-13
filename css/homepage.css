@@ -114,7 +114,7 @@ img {
 }
 
 .div_styling:hover {
-  transform: scale(1.4);
+  transform: scale(1.1);
 }
 
 .div_styling:last-child {
