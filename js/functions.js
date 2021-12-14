@@ -44,9 +44,8 @@ window.addEventListener('scroll', scrollEventDesktop);
 // Display array when clicked
 
 const coll = document.getElementsByClassName('see_open');
-var i;
 
-for (i = 0; i < coll.length; i++) {
+for (let i = 0; i < coll.length; i++) {
   coll[i].addEventListener('click', function () {
     this.classList.toggle('active');
     const content = this.nextElementSibling;
